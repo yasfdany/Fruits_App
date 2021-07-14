@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".bottomnavbar.fragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:id="@+id/header_frag_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_hello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="35dp"
+            android:fontFamily="@font/bold"
+            android:text="@string/hello"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="40dp"
+            android:src="@drawable/avatar"
+            android:layout_alignParentEnd="true"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/black"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_info"
+            android:layout_width="320dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="#91DCFF"
+            app:cardCornerRadius="40dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="120dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/card_piece4"
+                    android:clickable="true">
+
+                    <TextView
+                        android:id="@+id/btn_read"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/light"
+                        android:text="@string/read"
+                        android:textColor="#60686C"
+                        android:textSize="17sp"
+                        android:textAlignment="center"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/img_fruits"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/fruits"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="10dp"/>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/light"
+                    android:textSize="17sp"
+                    android:text="@string/about_fruit"
+                    android:textColor="@color/black"
+                    android:layout_toEndOf="@id/img_fruits"
+                    />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card_info"
+            android:layout_gravity="center"
+            tools:listitem="@layout/recycler_view_template" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

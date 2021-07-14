@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Fruits Mart</string>
+    <string name="home">Home</string>
+    <string name="user">User</string>
+    <string name="name">Rifqi Ananda</string>
+    <string name="email">Rfqananda@gmail.com</string>
+    <string name="biodata">Biodata</string>
+    <string name="apel">Apple</string>
+    <string name="fruits">Fruits</string>
+    <string name="hello">Hello!</string>
+    <string name="read">Read</string>
+    <string name="about_fruit">Buah-buahan adalah salah satu sumber serat makanan yang sangat baik bagi tubuh.</string>
+    <string name="details">Details</string>
+    <string name="fruits_vege">Buah-buahan dan Sayuran</string>
+    <string name="article">
+        Buah-buahan merupakan bahan pangan sumber vitamin. Buah cepat sekali rusak oleh pengaruh mekanik, kimia dan mikrobiologi sehingga mudah menjadi busuk.
+        Oleh karena itu, pengolahan buah untuk memperpanjang masa simpannya sangat penting. Buah dapat diolah menjadi berbagai bentuk makanan seperti selai, manisan, dodol, dan keripik.
+        Salah satu alternatif yang dipilih dalam penelitian ini yaitu mengolahnya menjadi selai. Selai merupakan produk makanan yang berbentuk setengah padat dan dibuat dari campuran gula dan buah.
+        Selai biasanya dijadikan pendamping dalam menyantap roti atau isian kue. Kriteria kematangan buah yang dapat digunakan untuk membuat selai adalah buah yang masak dan tidak ada tanda-tanda busuk.
+        Buah yang masih muda tidak dapat digunakan untuk pembuatan selai karena masih banyak mengandung pati dan kandungan pektinnya rendah (Sidauruk, 2011). Buah yang sering digunakan untuk pembuatan selai antara lain: anggur, apel, jambu biji, jeruk, dan lain-lain.
+        Buah-buahan yang ideal untuk pembuatan selai harus mengandung pektin dan asam yang cukup untuk menghasilkan selai yang baik. Buah yang digunakan untuk penelitian ini adalah buah tomat dan buah pepaya mengkal.
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
